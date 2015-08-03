@@ -16,11 +16,22 @@
 }
 .bg-slider {
 	background-size: auto !important;
-	background-position: center 44px !important;
-	height: 364px !important;
+	background-position: center 70px !important;
+	height: 389px !important;
+}
+body.logged-in .bg-slider {
+	background-position: center 100px !important;
+}
+@media (max-width: 768px) {
 }
 #slider-home .container {
 	padding-bottom: 10px;
+}
+body.logged-in #slider-home {
+	margin-top: 60px;
+}
+#slider-home {
+	margin-top: 60px;
 }
 #infos-home {
 	padding-top: 20px;
