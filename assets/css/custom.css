@@ -1,0 +1,31 @@
+#barra-newsletter {
+	display: none;
+}
+#footer-creditos {
+	background-image: none;
+	padding-bottom: 20px;
+}
+.margin-footer {
+	margin-bottom: 100px;
+}
+#slider-home .pull-left {
+    margin-top: 0;
+}
+.slick-slider {
+	margin-top: 20px;
+}
+.bg-slider {
+	background-size: auto !important;
+	background-position: center 44px !important;
+	height: 364px !important;
+}
+#slider-home .container {
+	padding-bottom: 10px;
+}
+#infos-home {
+	padding-top: 20px;
+}
+.wrap-each .permalink {
+	font-size: 1.3em;
+	padding: 12px;
+}
