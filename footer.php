@@ -29,9 +29,13 @@
 					<a target="_blank" href="http://brasa.art.br">
 						<img alt="Brasa" src="<?php bloginfo('template_url');?>/assets/images/brasa.png">
 					</a>
-					<a target="_blank" href="http://www.acaoeducativa.org/">
-						<img alt="Ação Educativa" src="<?php bloginfo('template_url');?>/assets/images/acaoeducativa.png">
-					</a>
+					<?php if( $logo_footer = kirki_get_option( 'logos_footer' ) ) : ?>
+
+						<a target="_blank" href="<?php echo kirki_get_option( 'link_logos_footer' ); ?>">
+							<img src="<?php echo $logo_footer; ?>">
+						</a>
+
+					<?php endif; ?>
 
 				</div>
 

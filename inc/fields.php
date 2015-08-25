@@ -271,6 +271,22 @@ function brasa_kirki_fields( $fields ) {
     	'output'      => '#noticias-home',
 	);
 	$fields[] = array(
+		'type'     => 'image',
+		'setting'  => 'logos_footer',
+		'label'    => __( 'Footer logos image', 'odin' ),
+		'section'  => 'visual',
+		'default'  => get_template_directory_uri() . '/assets/images/acaoeducativa.png',
+		'priority' => 1,
+	);
+	$fields[] = array(
+		'type'     => 'text',
+		'setting'  => 'link_logos_footer',
+		'label'    => __( 'Link for footer logos', 'odin' ),
+		'help'	   => '',
+		'section'  => 'visual',
+		'priority' => 1,
+	);
+	$fields[] = array(
 		'type'     => 'textarea',
 		'setting'  => 'slider_home',
 		'label'    => __( 'Shortcode of slider in home', 'odin' ),
