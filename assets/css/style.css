@@ -475,6 +475,7 @@ nav.internal-menu .navbar-nav {
 	color:white;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300;
+        margin-left: 20px;
 }
 #page-single .barra-title .row{
 	padding-top:0;
@@ -487,7 +488,12 @@ nav.internal-menu .navbar-nav {
 }
 #page-single #secondary{
 	background:#f4f4f4;
-	padding:10px;
+	padding:20px;
+}
+
+#secondary ul {
+	list-style-type: none;
+	-webkit-padding-start: 0px;
 }
 /* REVEAL MODAL AGENDA */
 .reveal-modal>div.container>div.row{
@@ -708,6 +714,13 @@ nav.internal-menu .navbar-nav {
 		top:inherit;
 	}
 }
+
+.page-thumbnail {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 20px;
+}
+
 /* Page Contato */
 body.contato .row > p {
 	float: left;
